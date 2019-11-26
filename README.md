@@ -37,8 +37,11 @@ Important link
 To check properties of microserviceapp1
 http://localhost:8888/microserviceapp1/development
 
-To check protiest of developement
+To check property of developement
 http://localhost:8082/m1e1/configcheck
+
+To check property of production
+http://localhost:8888/microserviceapp1/production
 
 ref link
 https://howtodoinjava.com/spring-cloud/spring-cloud-config-server-git/
