@@ -1,3 +1,7 @@
+note -> Files must be bootstrap not the application.properties
+
+microserviceapp1-development.properties file must be there and spring.profiles.active=development, spring.application.name=microserviceapp1
+
 # config-server-repo
 # open browser and check below Urls, it will return the JSON output and in propertySources section
 http://localhost:8888/config-server-client/development
@@ -27,3 +31,14 @@ msg: "Hello world - this is from config server"
 }
 ]
 }
+
+
+Important link
+To check properties of microserviceapp1
+http://localhost:8888/microserviceapp1/development
+
+To check protiest of developement
+http://localhost:8082/m1e1/configcheck
+
+link
+https://howtodoinjava.com/spring-cloud/spring-cloud-config-server-git/
