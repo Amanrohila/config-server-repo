@@ -40,5 +40,11 @@ http://localhost:8888/microserviceapp1/development
 To check protiest of developement
 http://localhost:8082/m1e1/configcheck
 
-link
+ref link
 https://howtodoinjava.com/spring-cloud/spring-cloud-config-server-git/
+
+
+for refresh
+use post method url of http://localhost:8082/actuator/refresh
+and apply property into bootstrap property
+management.endpoints.web.exposure.include=refresh
